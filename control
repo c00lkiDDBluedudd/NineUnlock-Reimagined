@@ -1,9 +1,9 @@
-Package: com.example.tweakname
-Name: REPLACE_THIS_TWEAKNAME
+Package: com.coolkiddstudios.nineunlockreimagined
+Name: nineunlockreimagined
 Version: 1.0.0
-Architecture: iphoneos-arm
-Description: This is a template tweak package
-Maintainer: CallMeEcho
-Author: CallMeEcho
+Architecture: iphoneos-arm64
+Description: ios 9 accurate ls
+Maintainer: coolkiddstudios
+Author: coolkiddstudios
 Section: Tweaks
-Depends: mobilesubstrate, preferenceloader
+Depends: ellekit, preferenceloader
