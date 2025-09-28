@@ -16,7 +16,7 @@ jobs:
         steps:
             - name: Checkout repository
               uses: actions/checkout@v3
-              with:
+              with:/Users/runner/work/{coolkiddstudios}/{NineUnlock-Reimagined}
                 repository: ${{ github.workspace }}
                 submodules: true
 
