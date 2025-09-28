@@ -1,0 +1,4 @@
+[Enabled]
+name = "EnabledPreference"
+type = "BOOL"
+default = "NO"

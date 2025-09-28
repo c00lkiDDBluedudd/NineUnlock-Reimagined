@@ -1,0 +1,9 @@
+Package: com.example.tweakname
+Name: REPLACE_THIS_TWEAKNAME
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: This is a template tweak package
+Maintainer: CallMeEcho
+Author: CallMeEcho
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
