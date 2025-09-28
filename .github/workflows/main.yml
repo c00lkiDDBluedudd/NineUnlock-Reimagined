@@ -12,8 +12,8 @@ on:
 jobs:
     build:
         runs-on: macos-latest
-
-        steps:
+env:
+        steps:1
             - name: Checkout repository
               
               with:
