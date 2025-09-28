@@ -17,15 +17,15 @@ jobs:
             - name: Checkout repository
               uses: actions/checkout@v3
               with:
-                repository: ${{ c00lkiDDBluedudd }}
+                repository: ${{  }}
                 submodules: true
 
             - name: Setup Theos
               uses: beerpiss/theos-action@v1
               with:
                 cache: true
-                cache-dir-theos: ${{ c00lkiDDBluedudd }}/theos
-                cache-dir-sdks: ${{ c00lkiDDBluedudd }}/theos/sdks
+                cache-dir-theos: ${{  }}/theos
+                cache-dir-sdks: ${{  }}/theos/sdks
 
             - name: Build package
               run: |
