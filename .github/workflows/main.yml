@@ -17,7 +17,7 @@ jobs:
             - name: Checkout repository
               
               with:
-                repository: ${{ github.workspace }}
+                repository: ${{ github.repository }}
                 submodules: true
 
             - name: Setup Theos
